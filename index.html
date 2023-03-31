@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>A+ Website</title>
+    
+    <link href="img/schizophrenia.png" rel="icon">
+    <!-- <link rel="icon" type="image/x-icon" href="./assets/schizophrenia.png"> -->
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="vendor/devicons/css/devicons.min.css" rel="stylesheet">
+    <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+          
+    <!-- Custom styles for this template -->
+    <link href="css/resume.min.css" rel="stylesheet">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-6ND2W7BHE4"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-6ND2W7BHE4');
+    </script>
+    <!-- Reverse POSTS Order -->
+    <script>
+      function reverse(){
+        const postsContainer = document.getElementById('posts-container');
+        const posts = postsContainer.children;
+        for (let i = posts.length - 1; i >= 0; i--) {
+          postsContainer.appendChild(posts[i]);
+        }
+      }
+    </script>
+  </head>
+
+  <body id="page-top">
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">
+        <span class="d-block d-lg-none">A+</span>
+        <span class="d-none d-lg-block">
+          <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/profile.jpg" alt="">
+        </span>
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#about">About</a>
+          </li>
+          <!-- <li class="nav-item"> 
+            <a class="nav-link js-scroll-trigger" href="#experience">Experience</a>
+          </li> -->
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#posts">Posts</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#interests">Interests</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#awards">Awards</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container-fluid p-0">
+
+      <section class="resume-section p-3 p-lg-5 d-flex d-column" id="about">
+        <div class="my-auto">
+          <h1 class="mb-0">Ahmed
+            <span class="text-primary">Alshammari</span>
+          </h1>
+          <p class="mb-5">I'm a Penetration Tester at Cyberani Solutions with a KFUPM bachelor's in computer science. I have a passion for programming, and my area of expertise is finding and fixing weaknesses in systems. I'm constantly looking to increase my knowledge and abilities in the field of cybersecurity, whether it be through performing penetration tests or creating Red teaming tools. I appreciate you visiting my website!</p>
+          <ul class="list-inline list-social-icons mb-0">
+            <li class="list-inline-item">
+              <a href="https://www.youtube.com/@schizo_31337">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-youtube fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://twitter.com/5ch1zo">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://www.linkedin.com/in/ahmed-alshammari-152673172/">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://github.com/isch1zo">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="posts">
+        <h2 class="mb-5">Posts    
+          <svg onclick="reverse()" style="border:0.1px dotted black" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-down-up" viewBox="0 0 16 16">
+          <path fill-rule="evenodd" d="M11.5 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L11 2.707V14.5a.5.5 0 0 0 .5.5zm-7-14a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L4 13.293V1.5a.5.5 0 0 1 .5-.5z"/>
+        </svg>
+      </h2>
+        <div class="my-auto" id="posts-container">
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <a href="https://twitter.com/5ch1zo/status/1307309969654587392?s=20">
+                <h3 class="mb-0">[Twitter] Linux Privilege escalation summary - checklist</h3>
+              </a>
+            </div>
+          </div>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <a href="https://twitter.com/5ch1zo/status/1321497001964589063?s=20">
+                <h3 class="mb-0">[Twitter] Windows Privilege escalation summary - checklist</h3>
+              </a>
+            </div>
+          </div>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <a href="https://twitter.com/5ch1zo/status/1324094564685283330?s=20">
+                <h3 class="mb-0">[Twitter] How to get stored wifi passwords</h3>
+              </a>
+            </div>
+          </div>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <a href="https://twitter.com/5ch1zo/status/1325377184899457025?s=20">
+                <h3 class="mb-0">[Twitter] Insecure GUI Apps</h3>
+              </a>
+            </div>
+          </div>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <a href="https://twitter.com/5ch1zo/status/1328277866442862592?s=20">
+                <h3 class="mb-0">[Twitter] Mass Assignment Vulnerability on Ruby On Rails Framework</h3>
+              </a>
+            </div>
+
+          </div>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <a href="https://twitter.com/5ch1zo/status/1344771503045414913?s=20">
+                <h3 class="mb-0">[Twitter] How to get Bad characters automatically</h3>
+              </a>
+            </div>
+          </div>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <a href="https://twitter.com/5ch1zo/status/1349453777187852288?s=20">
+                <h3 class="mb-0">[Twitter] Reverse Shell via Word Document Macros</h3>
+              </a>
+            </div>
+          </div>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <a href="https://twitter.com/5ch1zo/status/1354783681068589059?s=20">
+                <h3 class="mb-0">[Twitter] Linux Buffer Overflow attack (32-bit)</h3>
+              </a>
+            </div>
+          </div>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <a href="https://twitter.com/5ch1zo/status/1357728729993207808?s=20">
+                <h3 class="mb-0">[Twitter] Story of XSS Vulnerability</h3>
+              </a>
+            </div>
+          </div>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <a href="https://twitter.com/5ch1zo/status/1361669587314565121?s=20">
+                <h3 class="mb-0">[Twitter] Open Redirect Vulnerability</h3>
+              </a>
+            </div>
+          </div>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <a href="https://twitter.com/5ch1zo/status/1363137145796521985?s=20">
+                <h3 class="mb-0">[Twitter] Buffer Overflow Attack + Bypass NX </h3>
+              </a>
+            </div>
+          </div>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <a href="https://twitter.com/5ch1zo/status/1367999654726664197?s=20">
+                <h3 class="mb-0">[Twitter] Man in The Middle Attack [Experimentally]</h3>
+              </a>
+            </div>
+          </div>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <a href="https://twitter.com/5ch1zo/status/1372171570102333449?s=20">
+                <h3 class="mb-0">[Twitter] CyberHubSA - Level-0 Challenge writeup (Buffer Overflow)</h3>
+              </a>
+            </div>
+          </div>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <a href="https://twitter.com/5ch1zo/status/1372545741336510465?s=20">
+                <h3 class="mb-0">[Twitter] CyberHubSA - Mobile Cache Challenge writeup</h3>
+              </a>
+            </div>
+          </div>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <a href="https://twitter.com/5ch1zo/status/1380623518677803009?s=20">
+                <h3 class="mb-0">[Twitter] Subdomain Takeover Vulnerability</h3>
+              </a>
+            </div>
+          </div>
+          
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <a href="https://twitter.com/5ch1zo/status/1398302942072037376?s=20">
+                <h3 class="mb-0">[Twitter] Bussiness Logic Vulnerability</h3>
+              </a>
+            </div>
+          </div>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <a href="https://twitter.com/5ch1zo/status/1399279422621065217?s=20">
+                <h3 class="mb-0">[Twitter] Importance of Passive & Active Enumeration</h3>
+              </a>
+            </div>
+          </div>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <a href="https://github.com/isch1zo/HireMe">
+                <h3 class="mb-0">[GitHub] HireMe Tool - Automate CV sending</h3>
+              </a>
+            </div>
+          </div>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <a href="https://twitter.com/5ch1zo/status/1408035429375426567?s=20">
+                <h3 class="mb-0">[Twitter] WIFI Hacking (WPA/WPA2)</h3>
+              </a>
+            </div>
+          </div>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <a href="https://twitter.com/5ch1zo/status/1415020303877554184?s=20">
+                <h3 class="mb-0">[Twitter] OAuth Weaknesses - Part 1</h3>
+              </a>
+            </div>
+          </div>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <a href="https://twitter.com/5ch1zo/status/1416485993109151745?s=20">
+                <h3 class="mb-0">[Twitter] OAuth Weaknesses ( in Microsoft ) - Part 2</h3>
+              </a>
+            </div>
+          </div>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <a href="https://twitter.com/5ch1zo/status/1421894402901938183?s=20">
+                <h3 class="mb-0">[Twitter] Exposed .git Folder Vulnerability</h3>
+              </a>
+            </div>
+          </div>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <a href="https://twitter.com/5ch1zo/status/1424702394894471171?s=20">
+                <h3 class="mb-0">[Twitter] Network Traffic Analysis in Mobile Application</h3>
+              </a>
+            </div>
+          </div>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <a href="https://twitter.com/5ch1zo/status/1426259851521449990?s=20">
+                <h3 class="mb-0">[Twitter] SSH Local Port Forwarding</h3>
+              </a>
+            </div>
+          </div>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <a href="https://twitter.com/5ch1zo/status/1429525225956384788?s=20">
+                <h3 class="mb-0">[Twitter] SSH Remote Port Forwarding</h3>
+              </a>
+            </div>
+          </div>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <a href="https://twitter.com/5ch1zo/status/1430964328874840068?s=20">
+                <h3 class="mb-0">[Twitter] SSH Dynamic port forwarding</h3>
+              </a>
+            </div>
+          </div>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <a href="https://twitter.com/5ch1zo/status/1434909161935052800?s=20">
+                <h3 class="mb-0">[Twitter] ~/.bashrc File Benefit</h3>
+              </a>
+            </div>
+          </div>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <a href="https://twitter.com/5ch1zo/status/1463228466590097408?s=20">
+                <h3 class="mb-0">[Twitter] Linux Buffer Overflow attack (x64-bit)</h3>
+              </a>
+            </div>
+          </div>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <a href="https://twitter.com/5ch1zo/status/1479524292891230208?s=20">
+                <h3 class="mb-0">[Twitter] XXE Vulnerability</h3>
+              </a>
+            </div>
+          </div>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <a href="https://twitter.com/5ch1zo/status/1483797659848695819?s=20">
+                <h3 class="mb-0">[Twitter] Why "jmp esp" when exploiting Buffer Overflow</h3>
+              </a>
+            </div>
+          </div>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <a href="https://twitter.com/5ch1zo/status/1521568433783160833?s=20">
+                <h3 class="mb-0">[Twitter] SQL Injection Vulnerability</h3>
+              </a>
+            </div>
+          </div>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <a href="https://twitter.com/5ch1zo/status/1522290472508612610?s=20">
+                <h3 class="mb-0">[Twitter] Blind SQL Injection Vulnerability</h3>
+              </a>
+            </div>
+          </div>
+
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <a href="https://twitter.com/5ch1zo/status/1538140523520745472?s=20">
+                <h3 class="mb-0">[Twitter] Process Hollowing</h3>
+              </a>
+            </div>
+          </div>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <a href="https://twitter.com/5ch1zo/status/1546180824839626756?s=20">
+                <h3 class="mb-0">[Twitter] Anti-Debugging Technique - Thread Local Storage (TLS) callbacks</h3>
+              </a>
+            </div>
+          </div>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <a href="https://twitter.com/5ch1zo/status/1552339603369115649?s=20">
+                <h3 class="mb-0">[Twitter] Anti-Anti-Debugging Technique - Patching </h3>
+              </a>
+            </div>
+          </div>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <a href="https://twitter.com/5ch1zo/status/1572511112595406851?s=20">
+                <h3 class="mb-0">[Twitter] Functions Call obfuscation</h3>
+              </a>
+            </div>
+          </div>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <a href="https://twitter.com/5ch1zo/status/1604170349330911233?s=20">
+                <h3 class="mb-0">[Twitter] CSRF Vulnerability</h3>
+              </a>
+            </div>
+          </div>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <a href="https://twitter.com/5ch1zo/status/1605266495743094785?s=20">
+                <h3 class="mb-0">[Twitter] Same-Origin-Policy & Cross-Origin Resource Sharing</h3>
+              </a>
+            </div>
+          </div>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <a href="https://twitter.com/5ch1zo/status/1607342532396040192?s=20">
+                <h3 class="mb-0">[Twitter] Sample vs Preflight CORS request</h3>
+              </a>
+            </div>
+          </div>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <a href="https://www.youtube.com/watch?v=65FaYzgGMA0">
+                <h3 class="mb-0">[Youtube] FlareOn9 - Anode challenge writeup</h3>
+              </a>
+            </div>
+          </div>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <a href="https://twitter.com/5ch1zo/status/1631667824392372226?s=20">
+                <h3 class="mb-0">[Twitter] Anti-Debugging Technique - Undocumented Native Windows API</h3>
+              </a>
+            </div>
+          </div>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <a href="https://www.youtube.com/playlist?list=PLiqrDxwwUomTGsCGYeSqzck30ylzbZRRp">
+                <h3 class="mb-0">[Youtube] Malware Analysis - Semi-Course</h3>
+              </a>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="interests">
+        <div class="my-auto">
+          <h2 class="mb-5">Interests</h2>
+
+          <div class="subheading mb-3">Languages:</div>
+          <ul class="list-inline list-icons">
+            <li class="list-inline-item">
+              <i class="devicons devicons-html5"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-css3"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-javascript"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicon devicon-php-plain"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-java"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-python"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicon-flask-original"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicon-cplusplus-plain"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicon-c-plain"></i>
+            </li>
+          </ul>
+
+          <div class="subheading mb-3">Interests</div>
+          <ul class="fa-ul mb-0">
+            <li>
+              <i class="fa-li fa fa-check"></i>
+              Penetration Testing
+            </li>
+            <li>
+              <i class="fa-li fa fa-check"></i>
+              Web Developement
+            </li>
+            <li>
+              <i class="fa-li fa fa-check"></i>
+              Malware Analysis
+            </li>
+            <li>
+              <i class="fa-li fa fa-check"></i>
+              Reverse Engineering
+            </li>
+            <li>
+              <i class="fa-li fa fa-check"></i>
+              Binary Exploitation
+            </li>
+          </ul>
+        </div>
+
+      </section>
+
+      <!-- <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="interests">
+        <div class="my-auto">
+          <h2 class="mb-5">Interests</h2>
+          <p>Apart from being a web developer, I enjoy most of my time being outdoors. In the winter, I am an avid skiier and novice ice climber. During the warmer months here in Colorado, I enjoy mountain biking, free climbing, and kayaking.</p>
+          <p class="mb-0">When forced indoors, I follow a number of sci-fi and fantasy genre movies and television shows, I am an aspiring chef, and I spend a large amount of my free time exploring the latest technolgy advancements in the front-end web development world.</p>
+        </div>
+      </section> -->
+
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="awards">
+        <div class="my-auto">
+          <h2 class="mb-5">Awards &amp; Certifications</h2>
+          <ul class="fa-ul mb-0">
+            
+            <li>
+              <i class="fa-li fa fa-certificate text-warning"></i>
+              Offensive Security Web Expert (OSWE)
+            </li>
+            <li>
+              <i class="fa-li fa fa-certificate text-warning"></i>
+              eLearnSecurity Certified Malware Analysis Professional (eCMAP)
+            </li>
+            <li>
+              <i class="fa-li fa fa-certificate text-warning"></i>
+              eLearnSecurity Web Application Penetration Tester eXtreme (eWAPTX)
+            </li>
+            <li>
+              <i class="fa-li fa fa-certificate text-warning"></i>
+              eLearnSecurity Certified eXploit Developer (eCXD)
+            </li>
+            <li>
+              <i class="fa-li fa fa-certificate text-warning"></i>
+              Offensive Security Certified Professional (OSCP)
+            </li>
+            <li>
+              <i class="fa-li fa fa-certificate text-warning"></i>
+              eLearnSecurity Junior Penetration Tester (eJPT)
+            </li>
+
+            <li>
+              <i class="fa-li fa fa-trophy text-warning"></i>
+              1<sup>st</sup>
+              place - CyberHub CTF Oct, 2021
+            </li>
+            <li>
+              <i class="fa-li fa fa-trophy text-warning"></i>
+              1<sup>st</sup>
+              place - CyberHub CTF Mar, 2021
+            </li>
+            <li>
+              <i class="fa-li fa fa-trophy text-warning"></i>
+              1<sup>st</sup>
+              place - CyberHub CTF 2020
+            </li>
+            <li>
+              <i class="fa-li fa fa-star text-warning"></i>
+              CVE-2020-22550
+            </li>
+          
+          </ul>
+        </div>
+      </section>
+
+    </div>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/resume.min.js"></script>
+
+  </body>
+
+</html>
